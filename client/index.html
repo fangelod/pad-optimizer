@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PAD Optimizer</title>
+        <link rel="stylesheet" href="/css/main.css">
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/main.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="title">
+                <h1>Puzzle & Dragons Optimizer</h1>
+            </div>
+            <div class="navbar"></div>
+        </div>
+        <div class="body">
+            <table class="containerlayout">
+                <tr>
+                    <td class="left">
+                        <div>
+                            <h2>TEAM SELECTION</h2>
+                            <table>
+                                <tr>
+                                    <th>Icon</th>
+                                    <th>HP</th>
+                                    <th>ATK</th>
+                                    <th>RCV</th>
+                                </tr>
+                                <tr>
+                                    <td><img src="/img/Monsters/2271.png"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="/img/Monsters/2497.png"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="/img/Monsters/2494.png"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="/img/Monsters/2185.png"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="/img/Monsters/2818.png"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="/img/Monsters/2271.png"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                    <td><input type="number"></td>
+                                </tr>
+                            </table>
+                            <table>
+                                <tr>
+                                    <th>Total HP</th>
+                                    <td>10734</td>
+                                </tr>
+                                <tr>
+                                    <th>RCV</th>
+                                    <td>1554</td>
+                                </tr>
+                                <tr>
+                                    <th>Fire</th>
+                                    <td>1397</td>
+                                </tr>
+                                <tr>
+                                    <th>Water</th>
+                                    <td>1576</td>
+                                </tr>
+                                <tr>
+                                    <th>Wood</th>
+                                    <td>1290</td>
+                                </tr>
+                                <tr>
+                                    <th>Light</th>
+                                    <td>1590</td>
+                                </tr>
+                                <tr>
+                                    <th>Dark</th>
+                                    <td>1987</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td> 
+                    <td class="middle">
+                        <canvas id="PADboard"></canvas>
+                        <!--<div class="board">
+                            <table>
+                                <tr>
+                                    <td class="even"></td>
+                                    <td class="odd"></td>
+                                    <td class="even"></td>
+                                    <td class="odd"></td>
+                                    <td class="even"></td>
+                                    <td class="odd"></td>
+                                </tr>
+                                <tr>
+                                    <td class="odd"></td>
+                                    <td class="even"></td>
+                                    <td class="odd"></td>
+                                    <td class="even"></td>
+                                    <td class="odd"></td>
+                                    <td class="even"></td>
+                                </tr>
+                                <tr>
+                                    <td class="even"></td>
+                                    <td class="odd"></td>
+                                    <td class="even"></td>
+                                    <td class="odd"></td>
+                                    <td class="even"></td>
+                                    <td class="odd"></td>
+                                </tr>
+                                <tr>
+                                    <td class="odd"></td>
+                                    <td class="even"></td>
+                                    <td class="odd"></td>
+                                    <td class="even"></td>
+                                    <td class="odd"></td>
+                                    <td class="even"></td>
+                                </tr>
+                                <tr>
+                                    <td class="even"></td>
+                                    <td class="odd"></td>
+                                    <td class="even"></td>
+                                    <td class="odd"></td>
+                                    <td class="even"></td>
+                                    <td class="odd"></td>
+                                </tr>
+                            </table>
+                        </div>-->
+                    </td>
+                    <td class="right">
+                        <div class="orbSelector">
+                            <table>
+                                <tr>
+                                    <td><p>a</p></td>
+                                    <td><p>s</p></td>
+                                    <td><p>d</p></td>
+                                    <td><p>f</p></td>
+                                    <td><p>g</p></td>
+                                    <td><p>h</p></td>
+                                </tr>
+                                <tr>
+                                    <td class="frChoose"></td>
+                                    <td class="wtChoose"></td>
+                                    <td class="wdChoose"></td>
+                                    <td class="ltChoose"></td>
+                                    <td class="dkChoose"></td>
+                                    <td class="hChoose"></td>
+                                </tr>
+                            </table>
+                            <form>
+                                <label><input class="echeck" type="checkbox" name="enhanced">Enhanced (e)</label>
+                            </form>
+                        </div>
+                        <div class="results">
+                            <h2>RESULTS</h2>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="allMonsters"></div>
+    </body>
+</html>

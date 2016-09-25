@@ -1,0 +1,94 @@
+.body {
+    width: 100%;
+    background: url("/img/backdrop.jpeg") no-repeat;
+    background-size: 100%;
+}
+.middle table {
+    border: solid 1pt black;
+    border-collapse: collapse;
+}
+.middle td {
+    border: solid 1pt black;
+    border-collapse: collapse;
+}
+.odd { 
+    background-image: url("/img/Background2.png");
+}
+.even { 
+    background-image: url("/img/Background1.png");
+}
+.left {
+    vertical-align: top;
+    color: white;
+}
+.left table, .left th, .left td {
+    border: 1pt solid white;
+    border-collapse: collapse;
+}
+.left img {
+    height: 35px;
+    width: 35px;
+    vertical-align: middle;
+}
+.left input {
+    width: 90%;
+}
+.odd:hover, .even:hover {
+    cursor: default;
+}
+html {
+    background: black;
+}
+.right {
+    vertical-align: top;
+}
+.frChoose { 
+    background: url("/img/frOrb.png") no-repeat center;
+}
+.wtChoose { 
+    background: url("/img/wtOrb.png") no-repeat center; 
+}
+.wdChoose { 
+    background: url("/img/wdOrb.png") no-repeat center;
+}
+.ltChoose { 
+    background: url("/img/ltOrb.png") no-repeat center; 
+}
+.dkChoose { 
+    background: url("/img/dkOrb.png") no-repeat center; 
+}
+.hChoose { 
+    background: url("/img/hOrb.png") no-repeat center;
+}
+.frChoose, .wtChoose, .wdChoose, .ltChoose, .dkChoose, .hChoose {
+    background-size: contain;
+    padding: 0;
+}
+.orbSelector p {
+    text-align: center;
+    vertical-align: bottom;
+    margin: 0;
+    font-size: 1.5em;
+    background: gray;
+}
+.orbSelector form {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    background: gray;
+    width: 100%;
+}
+.orbSelector input {
+    height: 50%;
+}
+h2 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+.allMonsters {
+    background: white;
+}
